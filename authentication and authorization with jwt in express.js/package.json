@@ -1,0 +1,29 @@
+{
+  "name": "authentication",
+  "version": "1.0.0",
+  "description": "Authentication And Authorization with JWTs in Express.js",
+  "main": "./server",
+  "scripts": {
+    "start": "node ./server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ldap"
+  ],
+  "author": "Khaled",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "bluebird": "^3.7.2",
+    "ldapjs": "^2.2.3",
+    "moment": "^2.29.1",
+    "uuid": "^8.3.2",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.20",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "mongodb": "^3.6.3",
+    "mongoose": "^5.10.13",
+    "bcryptjs": "^2.4.3"
+  }
+}

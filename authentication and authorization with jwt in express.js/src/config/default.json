@@ -1,0 +1,6 @@
+{
+  "jwt": {
+    "SECRET": "MySecretKhaled",
+    "SALT": 10
+  }
+}
